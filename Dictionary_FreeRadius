@@ -1,0 +1,90 @@
+#
+#       Radius Attribute Value Dictionary
+#
+#	This file contains dictionary translations for parsing
+#	Radius Attribute/Value Pairs. The value of each attribute
+#	is specified as one of 4 data types. Valid data types are:
+#
+#	string - 0-253 octets
+#	ipaddr - 4 octets in network byte order
+#	integer - 32 bit value in big endian order (high byte first)
+#	date - 32 bit value in big endian order 
+#
+#
+
+
+
+VENDOR          Huawei                  2011
+
+BEGIN-VENDOR	Huawei
+
+# huawei begin
+ATTRIBUTE      Huawei-Input-Peak-Information-Rate               1         integer
+ATTRIBUTE      Huawei-Input-Committed-Information-Rate          2         integer
+ATTRIBUTE      Huawei-Input-Committed-Burst-Size                3         integer
+ATTRIBUTE      Huawei-Output-Peak-Information-Rate              4         integer
+ATTRIBUTE      Huawei-Output-Committed-Information-Rate         5         integer
+ATTRIBUTE      Huawei-Output-Committed-Burst-Size               6         integer
+ATTRIBUTE      Huawei-Remanent-Volume                           15        integer
+ATTRIBUTE      Huawei-Subscriber-QoS-Profile                    17        string
+ATTRIBUTE      Huawei-UserName-Access-Limit                     18        integer
+ATTRIBUTE      Huawei-Connect-ID                                26        integer
+ATTRIBUTE      Huawei-FTP-Directory                             28        string
+ATTRIBUTE      Huawei-Exec-Privilege                            29        integer
+ATTRIBUTE      Huawei-Qos-Data                                  31        string
+ATTRIBUTE      Huawei-VoiceVlan                                 33        integer
+ATTRIBUTE      Huawei-ProxyRdsPkt                               35        integer
+ATTRIBUTE      Huawei-NAS-Startup-Time-Stamp                    59        integer
+ATTRIBUTE      Huawei-IP-Host-Address                           60        string
+ATTRIBUTE      Huawei-Up-Priority                               61        integer
+ATTRIBUTE      Huawei-Down-Priority                             62        integer
+ATTRIBUTE      Huawei-Primary-WINS                              75        ipaddr
+ATTRIBUTE      Huawei-Second-WINS                               76        ipaddr
+ATTRIBUTE      Huawei-Input-Peak-Burst-Size                     77        integer
+ATTRIBUTE      Huawei-Output-Peak-Burst-Size                    78        integer
+ATTRIBUTE      Huawei-Data-Filter                               82        string
+ATTRIBUTE      Huawei-Client-Primary-DNS                        135       ipaddr
+ATTRIBUTE      Huawei-Client-Secondary-DNS                      136       ipaddr
+ATTRIBUTE      Huawei-Domain-Name                               138       string
+ATTRIBUTE      Huawei-AP-Information                            141       string
+ATTRIBUTE      Huawei-User-Information                          142       string
+ATTRIBUTE      Huawei-Service-Scheme                            146       string
+ATTRIBUTE      Huawei-Access-Type                               153       integer
+ATTRIBUTE      Huawei-URL-Flag                                  155       integer
+ATTRIBUTE      Huawei-Portal-URL                                156       string
+ATTRIBUTE      Huawei-Terminal-Type                             157       string
+ATTRIBUTE      Huawei-DHCP-Option                               158       string
+ATTRIBUTE      Huawei-HTTP-UA                                   159       string
+ATTRIBUTE      Huawei-UCL-Group                                 160       integer
+ATTRIBUTE      Huawei-Forwarding-VLAN                           161       string
+ATTRIBUTE      Huawei-Forwarding-Interface                      162       string
+ATTRIBUTE      Huawei-LLDP                                      163       string
+ATTRIBUTE      Huawei-Acct-ipv6-Input-OctetsNS                  166       integer
+ATTRIBUTE      Huawei-Acct-ipv6-Output-Octets                   167       integer
+ATTRIBUTE      Huawei-Acct-ipv6-Input-Packets                   168       integer
+ATTRIBUTE      Huawei-Acct-ipv6-Output-Packets                  169       integer
+ATTRIBUTE      Huawei-Acct-ipv6-Input-Gigawords                 170       integer
+ATTRIBUTE      Huawei-Acct-ipv6-Output-Gigawords                171       integer
+ATTRIBUTE      Huawei-Redirect-ACL                              173       string
+ATTRIBUTE      Huawei-Tariff-Ipv6-Input-Octets                  174       string
+ATTRIBUTE      Huawei-Tariff-Ipv6-Output-Octets                 175       string
+ATTRIBUTE      Huawei-Tariff-Ipv6-Input-Gigawords               176       string
+ATTRIBUTE      Huawei-Tariff-Ipv6-Output-Gigawords              177       string
+ATTRIBUTE      Huawei-IPv6-Redirect-ACL                         178       string
+ATTRIBUTE      Huawei-User-Extend-Info                          201       string
+ATTRIBUTE      Huawei-Web-Authen-Info                           237       string
+ATTRIBUTE      Huawei-Ext-Specific                              238       string
+ATTRIBUTE      Huawei-User-Access-Info                          239       string
+ATTRIBUTE      Huawei-Access-Device-Info                        240       string
+ATTRIBUTE      Huawei-Reachable-Detect                          244       string
+ATTRIBUTE      Huawei-Tariff-Input-Octets                       247       string
+ATTRIBUTE      Huawei-Tariff-Output-Octets                      248       string
+ATTRIBUTE      Huawei-Tariff-Input-Gigawords                    249       string
+ATTRIBUTE      Huawei-Tariff-Output-Gigawords                   250       string
+ATTRIBUTE      Huawei-IPv6-Filter-ID                            251       string
+ATTRIBUTE      Huawei-Framed-IPv6-Address                       253       ipaddr
+ATTRIBUTE      Huawei-Version                                   254       string
+ATTRIBUTE      Huawei-Product-ID                                255       string
+# huawei end
+
+END-VENDOR	Huawei
